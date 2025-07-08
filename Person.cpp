@@ -9,12 +9,17 @@ class Person
     public:
         Person(string name, vector<Expense> expenses): name(name), expenses(expenses) {};
 
-        void setname(string name)
+        void setName(string name)
         {
             this->name = name;
         }
-        string getname()
+        string getName()
         {
             return name;
+        }
+
+        void addExpense(Expense expense)
+        {
+            expenses.push_back(expense);
         }
 };

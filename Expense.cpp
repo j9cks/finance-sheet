@@ -7,20 +7,20 @@ class Expense {
     public:
         Expense(string name, double amount) : name(name), amount(amount) {};
         
-        void setname(string name)
+        void setName(string name)
         {
             this->name = name;
         }
-        string getname()
+        string getName()
         {
             return name;
         }
 
-        void setamount(double amount)
+        void setAmount(double amount)
         {
             this->amount = amount;
         }
-        double getamount() 
+        double getAmount() 
         {
             return amount;
         }
