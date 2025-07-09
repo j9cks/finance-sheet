@@ -16,6 +16,8 @@ int main()
     Expense e("Eating Out", 10.10);
     p.addExpense(e);
 
+    cout << "yay it ran";
+
     return 1;
 }
 
