@@ -18,7 +18,7 @@ int main()
 
     cout << "yay it ran";
 
-    return 1;
+    return 0;
 }
 
 // int main() {
